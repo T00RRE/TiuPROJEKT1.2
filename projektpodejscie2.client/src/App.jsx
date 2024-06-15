@@ -10,35 +10,35 @@ import './App.css';
 function App() {
     return (
         <div className="app-container">
-        <Container fluid >
-            <Row>
+            <Container fluid >
+                <Row>
                     <Col>
                         <div style={{ marginTop: '400px', }}>
-                        <div className="fontsize">
-                        [ LIFESTYLE ]
-                        </div>
-                        <Button variant="light" size="lg" className="big-button"active>
-                            Wchodze!
-                        </Button>
-                    
-                    </div>
-
-                </Col>
-
-                <Col lg={6} md={6} >
-
-                    <div style={{ marginTop: '400px' }}>
-                        <div className="fontsize">
-                            [KAWA]
-                        </div>
-                        <Link to="/Furniture" className="d-block a"  >
-                        <Button variant="light" size="lg" className="big-button" active>
-                        Wchodze!
+                            <div className="fontsize">
+                                [ LIFESTYLE ]
+                            </div>
+                            <Button variant="light" size="lg" className="big-button" active>
+                                Wchodze!
                             </Button>
-                        </Link>
-                </div>
-                </Col>
-            </Row>
+
+                        </div>
+
+                    </Col>
+
+                    <Col lg={6} md={6} >
+
+                        <div style={{ marginTop: '400px' }}>
+                            <div className="fontsize">
+                                [KAWA]
+                            </div>
+                            <Link to="/Furniture" className="d-block a"  >
+                                <Button variant="light" size="lg" className="big-button" active>
+                                    Wchodze!
+                                </Button>
+                            </Link>
+                        </div>
+                    </Col>
+                </Row>
 
             </Container>
         </div>

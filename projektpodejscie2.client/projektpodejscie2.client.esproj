@@ -10,11 +10,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="public\icons\" />
+    <Folder Include="src\Components\" />
     <Folder Include="src\logowanie\" />
     <Folder Include="src\furniture\" />
     <Folder Include="src\herbataSklep\" />
     <Folder Include="src\koszyk\" />
     <Folder Include="src\konto\" />
+    <Folder Include="src\context\" />
     <Folder Include="src\wyprzedazSklep\" />
   </ItemGroup>
 </Project>

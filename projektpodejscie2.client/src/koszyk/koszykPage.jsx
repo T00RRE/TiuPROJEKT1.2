@@ -14,19 +14,19 @@ export const Koszyk = () => {
 
                     <h2 style={{ fontSize: '20px' }}> Twoj koszyk jest pusty </h2>
 
-                    
+
                     <hr style={{ marginTop: '400px' }} />
-                    <h3 style={{ fontSize: '15px', color:'red' }}> Dodanie artykulow do koszyka nie oznacza ich rezerwacji !</h3>
+                    <h3 style={{ fontSize: '15px', color: 'red' }}> Dodanie artykulow do koszyka nie oznacza ich rezerwacji !</h3>
 
                 </Col>
                 <Col>
-                    <h1 style={{ fontSize: '40px' ,marginTop: '70px',marginLeft:'60px' }}> Kwota zamowienia</h1>
+                    <h1 style={{ fontSize: '40px', marginTop: '70px', marginLeft: '60px' }}> Kwota zamowienia</h1>
                     <suma style={{ fontSize: '30px', marginTop: '140px', marginLeft: '70px' }}> Suma :</suma>
                     <h3 style={{ fontSize: '30px', marginTop: '-40px', marginLeft: '300px' }}> 0,00 zl</h3>
 
 
                     <Button variant="outline-dark" style={{ marginTop: '200px', marginLeft: '50px', width: '350px', fontSize: '25px' }}>Przejdz do kasy</Button>
-                    <Form.Control style={{marginLeft:'50px', marginTop: '20px', width:'150px' }} type="text" placeholder="Kod kuponu" />
+                    <Form.Control style={{ marginLeft: '50px', marginTop: '20px', width: '150px' }} type="text" placeholder="Kod kuponu" />
                     <br />
                     <Button variant="outline-dark" style={{ marginTop: '-112px', marginLeft: '250px', width: '150px', fontSize: '15px' }}>Zastosuj kupon</Button>
 
