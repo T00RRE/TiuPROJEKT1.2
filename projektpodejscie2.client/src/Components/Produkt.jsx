@@ -2,8 +2,7 @@ import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 
 function Product({ sciezkaDoZdjecia, nazwa }) {
-   
-
+ 
     return (
         <Card style={{ width: '15rem', height: '24rem' }}>
             <Card.Img variant="top" src={sciezkaDoZdjecia} alt={nazwa} />

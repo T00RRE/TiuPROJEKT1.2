@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import { Outlet, Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
-
+import ContactButton from '../Components/ContactButton';
 export function Layout() {
     return (
         <div className="App">
@@ -38,6 +38,8 @@ export function Layout() {
                     <Outlet />
                 </Container>
             </div>
+            <ContactButton/>
         </div>
+       
     );
 }

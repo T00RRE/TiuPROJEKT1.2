@@ -93,3 +93,96 @@ body {
 .logowanie-bg {
     background-color: #C09369;
 }
+/* Newsletter.css */
+
+.modal-content {
+    background: none; /* Usunięcie domyślnego tła */
+}
+
+.modal-header {
+    background-color: rgba(0, 0, 0, 0.5); /* Przezroczyste tło dla nagłówka */
+    color: white; /* Kolor tekstu */
+    border-bottom: none; /* Usunięcie dolnej krawędzi */
+}
+
+.modal-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./image/Newsletter.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Opcjonalne: rozmazanie tła */
+    z-index: -1; /* Umieszczenie tła za modalem */
+}
+
+.modal-body {
+    z-index: 1; /* Wyświetlenie treści modala na wierzchu */
+}
+/* App.css */
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+    .text-overlay h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .text-overlay p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+.round-button {
+    position: fixed;
+    bottom: 20px; /* odstęp od dolnej krawędzi ekranu */
+    right: 20px; /* odstęp od prawej krawędzi ekranu */
+    z-index: 1000; /* ustawiamy wysokość warstwy, aby przycisk był na wierzchu */
+    border-radius: 50%; /* zaokrąglenie krawędzi, aby uzyskać kształt okrągły */
+    width: 60px; /* szerokość przycisku */
+    height: 60px; /* wysokość przycisku */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px; /* wielkość czcionki */
+    padding: 0; /* usuwamy domyślny padding */
+}
+.custom-modal .modal-content {
+    background-color: #C09369; /* lub inny kolor, który chcesz użyć */
+}
+.text-button {
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+    .text-button:hover {
+        color: darkblue;
+    }

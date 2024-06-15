@@ -1,6 +1,7 @@
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import ContactButton from '../Components/ContactButton';
 export const Koszyk = () => {
 
     return (
@@ -33,7 +34,7 @@ export const Koszyk = () => {
                 </Col>
 
             </Row>
-
+           
             <footer className="light text-dark" >
 
                 <Row style={{ marginTop: '50px' }}>
@@ -50,7 +51,7 @@ export const Koszyk = () => {
                         <p>&copy; {new Date().getFullYear()} <Image src="./image/logo1.jpg" style={{ width: '80px' }} /></p>
                     </Col>
                 </Row>
-
+                
             </footer>
 
 

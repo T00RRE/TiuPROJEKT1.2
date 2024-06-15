@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Product from "../Components/Produkt";
+import Newsletter from '../Components/Newsletter';
 export const Furniture = () => {
 
     return (
@@ -71,6 +72,8 @@ export const Furniture = () => {
 
 
                 </Row>
+
+                <Newsletter/>
 
                 <div fluid>
                     <h2 style={{ fontSize: '50px', marginTop: '50px' }}>
